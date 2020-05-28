@@ -1,0 +1,49 @@
+.img-right {
+	float: right;
+	margin: 10px;
+}
+.img-left {
+	float: left;
+	margin: 10px;
+}
+
+.boder {
+	border: 1px solid #DDD;
+	clear: both;
+}
+.menu{
+	list-style: none;
+
+}
+.menu li {
+	float: left;
+	background-color: #DDD;
+	padding: 0 5px;
+}
+.lorem{
+	clear: left;
+}
+.header {
+	background-color: #d4d4f8;
+	height: 100px;
+}
+.sidebar {
+	background-color: pink;
+	float: left;
+	width: 30%;
+}
+.main{
+	background-color: #e1e1e1;
+	margin-left: 30%;
+}
+.footer {
+	background-color: #b4b4b4;
+	height: 100px;
+	/*clear: both;*/
+}
+.wrapper:after{
+	content: '';
+	display: block;
+	clear: both;
+	height: 100px;
+}
